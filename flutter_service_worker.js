@@ -5,9 +5,9 @@ const CACHE_NAME = 'flutter-app-cache'
 
 const RESOURCES = {
   'version.json': '1c3f6ddaf6e5f468a61eef40099efcc1',
-  'index.html': 'fed79e12cd19e8ca62f30b803307fc56',
-  '/': 'fed79e12cd19e8ca62f30b803307fc56',
-  'main.dart.js': '15d7ab4d227d09bb89e45c6ffdb4485d',
+  'index.html': 'f81713c9bf83dbd066c71bccc33aabb2',
+  '/': 'f81713c9bf83dbd066c71bccc33aabb2',
+  'main.dart.js': '217dcb402cfab0f0ff027abafa0edd27',
   'flutter.js': 'c71a09214cb6f5f8996a531350400a9a',
   'favicon.png': '5dcef449791fa27946b3d35ad8803796',
   'icons/Icon-192.png': 'ac9a721a12bbc803b44f645561ecb1e1',
@@ -22,6 +22,8 @@ const RESOURCES = {
     'aaea1dc60b0ce34b4746c3de4eaa9add',
   'assets/res/images/nutri_chef.png': '4cb199f4ab62c389c00224f919635ad1',
   'assets/res/images/promptopia.png': 'd05e7e8230e546df1c79afaddc0ead53',
+  'assets/res/images/built_with_flutter.png':
+    '680596443602745483f66870e07d7e94',
   'assets/res/icons/figma_logo.svg': '662c187722530db5ea059436d9164bf6',
   'assets/res/icons/azure_logo.svg': '0668914f49f2b6800d13c8f662152e45',
   'assets/res/icons/aza_logo.svg': '8daedf047e6bfb2d377bae1b3677ebed',
@@ -29,10 +31,10 @@ const RESOURCES = {
   'assets/res/icons/html5_logo.svg': 'baf0bbb17ed5f98f53da20f89663df1c',
   'assets/res/icons/projects.svg': 'f7dbc792c72d98b7085cc72281067a1a',
   'assets/res/icons/javascript_logo.svg': 'bc310a3ad0457bca142f11d007279238',
-  'assets/res/icons/flutter_logo.svg': '8b9edb185604eb530cc1726481b552eb',
+  'assets/res/icons/flutter_logo.svg': '12257ea4a2d54e253b9093c57fe29254',
   'assets/res/icons/java_logo.svg': '21a98b4b5c1274d06d4e20bbb8a0a759',
   'assets/res/icons/tcs_logo.svg': 'e503a5233a0fe7e1ddb0b651bf33034f',
-  'assets/res/icons/git_logo.svg': '6125edbfc67f503efdea7a3176d3c53c',
+  'assets/res/icons/git_logo.svg': 'f572ad646e5da625329e26a2e0a1336d',
   'assets/res/icons/css3_logo.svg': '3d6f6923b3e7d7abddc39219ed3792d6',
   'assets/res/icons/azure_devops_logo.svg': '49f3558071df31a5cb0b16eb12ae753e',
   'assets/res/icons/play_store.svg': 'a6555a9326feec2527a602e50db5e117',
@@ -50,10 +52,10 @@ const RESOURCES = {
   'assets/res/fonts/Inter-BoldItalic.ttf': 'c4c47e3d7ed51a6bb67b7b8088a4b0e3',
   'assets/res/fonts/Inter-MediumItalic.ttf': '9a21378c7e8b26bc0c894402bfd5108c',
   'assets/res/fonts/Inter-Italic.ttf': '118abbe34a2979b66d6838805c56b7cd',
-  'assets/AssetManifest.json': 'c7260b17cd471cd9d92d54091004e024',
+  'assets/AssetManifest.json': '8dfaf5f4c67d800031429d6ce9f8af9d',
   'assets/NOTICES': '6057ea91bb00b3e4e8fda1f49feadf27',
   'assets/FontManifest.json': '60c9dddc378c86165f9d0b6ef06ce727',
-  'assets/AssetManifest.bin.json': '997e72fe54dd95ba18d414a560a3a6da',
+  'assets/AssetManifest.bin.json': '01bd718469b675008d7477fe752b1295',
   'assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf':
     '3759b2f7a51e83c64a58cfe07b96a8ee',
   'assets/packages/cupertino_icons/assets/CupertinoIcons.ttf':
@@ -61,7 +63,7 @@ const RESOURCES = {
   'assets/packages/eva_icons_flutter/lib/fonts/Eva-Icons.ttf':
     'b3cfd6832181cbaa3c98988c49d34641',
   'assets/shaders/ink_sparkle.frag': 'ecc85a2e95f5e9f53123dcaf8cb9b6ce',
-  'assets/AssetManifest.bin': '48f8360220fd24c448f5b86b17d99e4b',
+  'assets/AssetManifest.bin': 'dfc93b205df8d522e1912a0ecf8405c0',
   'assets/fonts/MaterialIcons-Regular.otf': '98f8a0ec9fb8add2a48e7eabe8521c8a',
   'canvaskit/skwasm.js': '445e9e400085faead4493be2224d95aa',
   'canvaskit/skwasm.js.symbols': '741d50ffba71f89345996b0aa8426af8',
