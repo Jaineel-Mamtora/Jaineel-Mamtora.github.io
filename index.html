@@ -18,12 +18,12 @@
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content="A new Flutter project." />
+    <meta name="description" content="Jaineel's Portfolio" />
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="jaineel_portfolio" />
+    <meta name="apple-mobile-web-app-title" content="jaineel's portfolio" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -102,12 +102,37 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = '265793412'
+      const serviceWorkerVersion = '3590737364'
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
-  <body>
+  <body style="overflow: hidden">
+    <div id="loading_indicator" class="container">
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+      <dotlottie-player
+        src="./assets/lottie_loader.json"
+        background="transparent"
+        speed="1"
+        style="width: 50vw"
+        direction="1"
+        playMode="normal"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </div>
     <script>
       window.addEventListener('load', function (ev) {
         // Download main.dart.js
@@ -148,6 +173,16 @@
           }
         }
       })
+    </script>
+    <script>
+      window.onload = () => {
+        setTimeout(() => {
+          var loadingIndicator = document.getElementById('loading_indicator')
+          if (loadingIndicator) {
+            loadingIndicator.remove()
+          }
+        }, 10000)
+      }
     </script>
   </body>
 </html>
